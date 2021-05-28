@@ -1,4 +1,4 @@
-//enterNetLearning()
+//enterNetLearning();
 
 function enterNetLearning(){
 
@@ -20,10 +20,10 @@ function enterNetLearning(){
         click(dierketangchengjidan.bounds().centerX(), dierketangchengjidan.bounds().centerY());
     }
     toast("10秒后进入网络学习模块");
-    sleep(10000)
+    sleep(10000);
 
     //进入 网络学习模块
-    var wangluoxuexi = text("可移动").depth(6).findOnce();
+    var wangluoxuexi = text("可移动").findOne();
     if (wangluoxuexi){
         click(wangluoxuexi.bounds().centerX(), wangluoxuexi.bounds().centerY());
     }

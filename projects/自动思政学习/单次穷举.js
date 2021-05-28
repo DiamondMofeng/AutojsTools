@@ -9,7 +9,7 @@ if (kaishidati){
 
 //点击确定
 function QD() {
-    var queding = className("android.view.View").depth(9).text("确定").findOnce();
+    var queding = className("android.view.View").textContains("确定").findOnce();
     if (queding){
         click(queding.bounds().centerX(), queding.bounds().centerY());
         sleep(2000);

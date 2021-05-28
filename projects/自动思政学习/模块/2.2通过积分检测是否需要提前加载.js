@@ -1,4 +1,4 @@
-isPreloadNeeded();
+//isPreloadNeeded();
 //检测是否需要提前加载题目
 function isPreloadNeeded(){
     let button_score = textContains("积分").findOnce();
@@ -33,6 +33,6 @@ function isPreloadNeeded(){
     gesture(1,[300, 600], [300, 1200]);
     sleep(2000);
     gesture(1,[300, 600], [300, 1200]);
-    toast("已返回第一题")
+    toast("已返回第一题");
 
 }
