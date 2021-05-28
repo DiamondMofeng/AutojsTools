@@ -1,1 +1,0 @@
-device.vibrate(200)
